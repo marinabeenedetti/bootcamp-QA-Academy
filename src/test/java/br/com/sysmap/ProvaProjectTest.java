@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ProvaProjectTest {
 
-    String city = "João Pessoa"; //Case sensitive
+    String city = "Barueri"; //Case sensitive
     @BeforeAll
     static void inicio() {
         Browser.openChrome("https://openweathermap.org/");
